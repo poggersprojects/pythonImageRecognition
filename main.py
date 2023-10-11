@@ -3,7 +3,7 @@ from tensorflow import keras
 from keras import layers
 from data_preprocessing import train_generator, val_generator
 from plotting import plot_training_history
-from data_augmentation import apply_data_augmentation  # Import the data augmentation function
+from data_augmentation import apply_data_augmentation
 
 # Define the model
 model = keras.Sequential([
